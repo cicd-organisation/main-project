@@ -4,6 +4,13 @@ cache: pip
 python:
 - '3.6'
 
+install:
+  - pip install sphinx
+
+script:
+  - make html
+  - tree
+
 deploy:
   provider: pages
   skip-cleanup: true
