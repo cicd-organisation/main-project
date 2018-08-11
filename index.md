@@ -2,4 +2,4 @@
 
 Meow
 
-[1.0](docs/dev/index.html)
+[dev](docs/dev/index.html)
